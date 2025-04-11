@@ -178,3 +178,54 @@ body, html {
   text-align: center;
   color: black;
 }
+
+
+.itemListFooter{
+  margin-top:5px;
+  margin-left: 15px;
+}
+
+.listFooter{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color:white;
+}
+
+.removePadding{
+  padding: 0px;
+}
+
+#treatSectionRow{
+  margin: 0% 5%; background-color: #b2c781;  border-radius: 25px;
+}
+
+
+.sectionColText{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#btnTreatSection{
+  background-color: #05220c; 
+  margin-bottom: 20px; 
+  color:white
+}
+
+#btnPenSection{
+  background-color: #071120; 
+  margin-bottom: 20px; 
+  color:white
+}
+
+#pensSectionRow{
+  margin: 0% 5%; background-color:#9ec4eeba;  border-radius: 25px;
+}
+
+#animalsSectionRow{
+  margin: 0% 5%;
+}
+
+#iconHouse
+{
+  margin-bottom:3px;
+}
