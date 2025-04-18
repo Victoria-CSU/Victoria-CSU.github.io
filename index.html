@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-
+    <link href="styles/styles_nav.css" rel="stylesheet">
+    <link href="styles/styles_footer.css" rel="stylesheet">
     <link href="styles/styles.css" rel="stylesheet">
 
     <title>Fur and Feathers Farm - Home</title>
@@ -16,89 +17,92 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container-fluid">
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-              
-                <li class="nav-item dropdown active">
-                    <a id="navbarDropdownChickens" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Chickens
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownChickens">
-                    <li><a class="dropdown-item" href="#">All</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><p class="dropdown-header navSubHeading">Chicken Breeds</p></li>
-                    <li><a class="dropdown-item" href="#">Polish</a></li>
-                    <li><a class="dropdown-item" href="#">Silkie</a></li>
-                    <li><a class="dropdown-item" href="#">Plymouth</a></li>
-                    <li><a class="dropdown-item" href="#">Barbu d'Anvers</a></li>
-                    <li><a class="dropdown-item" href="#">Light Sussex</a></li>
-                    </ul>
-                </li>
+      <a class="navbar-brand" href="index.html">Fur and Feathers Farm</a>
 
-                <li class="nav-item dropdown">
-                    <a id="navbarDropdownWaterfowl" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Waterfowl
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownWaterfowl">
-                    <li><a class="dropdown-item" href="#">Geese</a></li>
-                    <li><a class="dropdown-item" href="#">Ducks</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><p class="dropdown-header navSubHeading">Goose Breeds</p></li>
-                    <li><a class="dropdown-item" href="#">Toulouse</a></li>
-                    <li><a class="dropdown-item" href="#">Embden</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><p class="dropdown-header navSubHeading">Duck Breeds</p></li>
-                    <li><a class="dropdown-item" href="#">Call Duck</a></li>
-                    <li><a class="dropdown-item" href="#">Khaki Campbell</a></li>
-                    <li><a class="dropdown-item" href="#">Indian Runner</a></li>
-                    </ul>
-                </li>
+      <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
 
-                <li class="nav-item dropdown">
-                    <a id="navbarDropdownGameBirds" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Game Birds
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownGameBirds">
-                    <li><a class="dropdown-item" href="#">Pheasants</a></li>
-                    <li><a class="dropdown-item" href="#">Partridges</a></li>
-                    <li><a class="dropdown-item" href="#">Guinea Fowl</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><p class="dropdown-header navSubHeading">Pheasant Breeds</p></li>
-                    <li><a class="dropdown-item" href="#">Red Golden</a></li>
-                    <li><a class="dropdown-item" href="#">Yellow Golden</a></li>
-                    <li><a class="dropdown-item" href="#">Ring-necked</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><p class="dropdown-header navSubHeading">Partridge Breeds</p></li>
-                    <li><a class="dropdown-item" href="#">Chukar</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><p class="dropdown-header navSubHeading">Guinea Fowl Breeds</p></li>
-                    <li><a class="dropdown-item" href="#">White</a></li>
-                   
-                    </ul>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Treat</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Pens</a>
-                </li>
-              
-            </ul>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
             
-          </div>
+              <li class="nav-item dropdown active">
+                  <a id="navbarDropdownChickens" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Chickens
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownChickens">
+                  <li><a class="dropdown-item" href="chickens.html">All</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><p class="dropdown-header navSubHeading">Chicken Breeds</p></li>
+                  <li><a class="dropdown-item" href="chickens.html#Polish">Polish</a></li>
+                  <li><a class="dropdown-item" href="chickens.html#Silkie">Silkie</a></li>
+                  <li><a class="dropdown-item" href="chickens.html#Plymouth">Plymouth</a></li>
+                  <li><a class="dropdown-item" href="chickens.html#Barbu-Anvers">Barbu d'Anvers</a></li>
+                  <li><a class="dropdown-item" href="chickens.html#Light-Sussex">Light Sussex</a></li>
+                  </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                  <a id="navbarDropdownWaterfowl" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Waterfowl
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownWaterfowl">
+                  <li><a class="dropdown-item" href="#">Geese</a></li>
+                  <li><a class="dropdown-item" href="#">Ducks</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><p class="dropdown-header navSubHeading">Goose Breeds</p></li>
+                  <li><a class="dropdown-item" href="#">Toulouse</a></li>
+                  <li><a class="dropdown-item" href="#">Embden</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><p class="dropdown-header navSubHeading">Duck Breeds</p></li>
+                  <li><a class="dropdown-item" href="#">Call Duck</a></li>
+                  <li><a class="dropdown-item" href="#">Khaki Campbell</a></li>
+                  <li><a class="dropdown-item" href="#">Indian Runner</a></li>
+                  </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                  <a id="navbarDropdownGameBirds" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Game Birds
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownGameBirds">
+                  <li><a class="dropdown-item" href="gamebirds.html#Pheasants">Pheasants</a></li>
+                  <li><a class="dropdown-item" href="gamebirds.html#Partridges">Partridges</a></li>
+                  <li><a class="dropdown-item" href="gamebirds.html#Guinea-Fowl">Guinea Fowl</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><p class="dropdown-header navSubHeading">Pheasant Breeds</p></li>
+                  <li><a class="dropdown-item" href="gamebirds.html#Red-Golden-Pheasant">Red Golden</a></li>
+                  <li><a class="dropdown-item" href="gamebirds.html#Yellow-Golden-Pheasant">Yellow Golden</a></li>
+                  <li><a class="dropdown-item" href="gamebirds.html#Ring-necked-Pheasant">Ring-necked</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><p class="dropdown-header navSubHeading">Partridge Breeds</p></li>
+                  <li><a class="dropdown-item" href="gamebirds.html#Chukar-Partridge">Chukar</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><p class="dropdown-header navSubHeading">Guinea Fowl Breeds</p></li>
+                  <li><a class="dropdown-item" href="gamebirds.html#White-Guinea-Fowl">White</a></li>
+                 
+                  </ul>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="treatRecipe.html">Treat Recipe</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Pens</a>
+              </li>
+            
+          </ul>
+          
         </div>
-    </nav>
+      </div>
+  </nav>
     
 
       <!-- Heading Section  -->
@@ -118,12 +122,12 @@
         <h2 id="animalsSectionHeading">Meet our feathered friends!</h2>
 
         <div class="container">
-          <div id="animalsSectionRow" class="row">
+          <div id="animalsSectionRow" class="row  ">
 
               <div class="col-lg-4 centerCards" >
-                <a href="#" class="cardLink">
+                <a href="chickens.html" class="cardLink">
                     <div class="card cardBorder cardWidth cardMargin">
-                      <img src="images/violet.jpg" class="card-img-top" alt="Chicken">
+                      <img src="images/violet.jpg" class="card-img-top" alt="">
                       
                         <p class="cardTitle">Chickens</p>
                       
@@ -134,7 +138,7 @@
               <div class="col-lg-4 centerCards" >
                 <a href="#" class="cardLink">
                     <div class="card cardBorder cardWidth cardMargin">
-                      <img src="images/goose_in_grass.jpg" class="card-img-top" alt="Goose sitting on the grass">
+                      <img src="images/goose_in_grass.jpg" class="card-img-top" alt="">
                       
                         <p class="cardTitle">Waterfowl</p>
                       
@@ -142,9 +146,9 @@
                 </a>
               </div>
               <div class="col-lg-4 centerCards" >
-                <a href="#" class="cardLink">
+                <a href="gamebirds.html" class="cardLink">
                     <div class="card cardBorder cardWidth cardMargin">
-                      <img src="images/chukar.jpg" class="card-img-top" alt="Partridge">
+                      <img src="images/chukar.jpg" class="card-img-top" alt="">
                       
                         <p class="cardTitle">Game Birds</p>
                       
@@ -239,11 +243,6 @@
 
 
    </footer>
-
-
-
-
-
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
