@@ -64,3 +64,12 @@ h2
 {
     margin-bottom: 150px;
 }
+
+#titleSection p
+{
+    text-align: center;
+    font-size: larger;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
