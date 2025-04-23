@@ -205,10 +205,39 @@ body, html {
 }
 
 
+@media (max-width: 991px) {
+  #imageAboutCol {
+    order: -1 !important;
+    
+  }
+}
+
 
 
 .navSubHeading
 {
   font-weight: 500;
    margin-top: 0;
+}
+
+#aboutSection
+{
+  margin-bottom: 60px;
+  text-align: center;
+  margin-right: 15%;
+  margin-left: 15%;
+
+}
+
+
+#aboutSection p
+{
+  font-size: large;
+}
+
+#aboutSectionHeading
+{
+  font-weight: bold;
+  color: black;
+  text-align: center;
 }
